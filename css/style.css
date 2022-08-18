@@ -150,3 +150,89 @@
     color:#ffffff;
     font-size: 20px;
 }
+
+.section3{
+    margin:100px 100px;
+}
+
+.section3-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    margin:50px 0px;
+}
+
+.view-btn button{
+    padding:18px 45px;
+    border: none;
+    font-weight: 700;
+    color: #ffffff;
+    background-color:#C91B28;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: auto;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.project-img{
+    padding:50px;
+    height:280px;
+    background-color: #1E1E1E;
+}
+
+.project-img img{
+    width: 450px;
+}
+
+.project-name{
+    padding:10px 0px;
+    font-size: 25px;
+    color:#ffffff;
+    font-weight: 700;
+}
+
+.section4{
+    margin:100px 100px;
+}
+
+.section4-content{
+    color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E1E;
+    padding:50px 50px;
+}
+
+.section4-content div h1{
+    font-size: 50px;
+}
+
+.section5{
+    margin:50px 0px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    display: flow-root;
+    background-color: #1E1E1E;
+    padding: 30px 100px;
+}
+
+.footer-logo{
+    float: left;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.social img{
+    width: 25px;
+    margin:0px 20px;
+}
