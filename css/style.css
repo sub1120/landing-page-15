@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: Poppins, sans-serif;
+}
+
+.main{
+    background-color: #111111;
+    position: relative;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.header{
+    padding:50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    display: inline;
+    margin:10px 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section1-content{
+    display: flow-root;
+    margin:0px 100px;
+}
+
+.section1-content-left{
+    float: left;
+}
+
+.section1-content-left img{
+    width: 600px;
+}
+
+.section1-content-right{
+    margin-top:100px;
+}
+
+.section1-content-right h3{
+    color:#C91B28;
+    font-weight: 700;
+}
+
+.section1-content-right h1{
+    font-size: 50px;
+    color:#ffffff;
+
+}
+
+.section1-content-right p{
+    color: #ffffff;
+    margin: 30px 0px;
+}
+
+.about-btn button{
+    padding:18px 45px;
+    border: none;
+    font-weight: 700;
+    color: #ffffff;
+    background-color:#C91B28;
+}
+
+.section2{
+    margin:100px 100px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-item{
+    width: 250px;
+    background-color: #1E1E1E;
+    padding:50px;
+}
+
+.feature-img img{
+    width: 100px;
+}
+
+.feature-name{
+    color:#ffffff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.feature-para{
+    color:#ffffff;
+    margin:10px 0px;
+    font-size: 20px;
+}
+
+.more{
+    color: #C91B28;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section2-content2{
+    margin:150px 0px;
+}
+
+.stats{
+    display: grid;
+    columns: 3;
+    grid-template-columns: 300px 400px 400px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.stat-item{
+    text-align: center;
+    background-color: #1E1E1E;
+    padding:30px;
+}
+
+.stat-item.x{
+    text-align: center;
+    inset: 0;
+    margin:auto 0px;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: transparent;
+}
+
+.count{
+    color:#C91B28;
+    font-weight:700;
+    font-size: 50px;
+}
+
+.stat-name{
+    color:#ffffff;
+    font-size: 20px;
+}
