@@ -85,7 +85,7 @@
 }
 
 .features-item{
-    width: 250px;
+    width: 20%;
     background-color: #1E1E1E;
     padding:50px;
 }
@@ -113,13 +113,13 @@
 }
 
 .section2-content2{
-    margin:150px 0px;
+    margin:150px 50px;
 }
 
 .stats{
     display: grid;
     columns: 3;
-    grid-template-columns: 300px 400px 400px;
+    grid-template-columns: 32% 32% 32%;
     column-gap: 30px;
     row-gap: 30px;
 }
@@ -181,12 +181,11 @@
 
 .project-img{
     padding:50px;
-    height:280px;
     background-color: #1E1E1E;
 }
 
 .project-img img{
-    width: 450px;
+    width: 95%;
 }
 
 .project-name{
@@ -235,4 +234,210 @@
 .social img{
     width: 25px;
     margin:0px 20px;
+}
+
+@media (max-width:1200px){
+
+    .header{
+        padding:50px 50px;
+    }
+
+    .section1-content{
+        margin:0px 50px;
+    }
+
+    .section1-content-left img{
+        width: 400px;
+    }
+
+    .section1-content-right{
+        margin-top:10px;
+    }
+
+    .section1-content-right p{
+        margin: 10px 0px;
+    }
+
+    .section2{
+        margin:50px 50px;
+    }
+
+    .features-item{
+        padding:40px;
+    }
+
+    .feature-img img{
+        width: 60px;
+    }
+    
+    .feature-name{
+        font-size: 30px;
+    }
+    
+    .feature-para{
+        font-size: 15px;
+    }
+
+    .count{
+        font-size: 40px;
+    }
+
+    .stat-name{
+        font-size: 15px;
+    }
+
+    .project-img{
+        padding:30px;
+    }  
+
+    .section3{
+        margin:50px 50px;
+    }  
+    
+    .section4{
+        margin:50px 50px;
+    } 
+
+    .section4-content div h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:900px){
+    .logo img{
+        width: 100px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .section1-content-left{
+        float: unset;
+    }
+
+    .section1-content-left img{
+        width: 100%;
+    }
+
+    .section1-content-right h1{
+        font-size: 30px;
+        color:#ffffff;
+    }
+
+    .section1-content-right p{
+        font-size: 15px;
+    }
+
+    .features{
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .features-item{
+        width: 90%;
+        margin:10px 0px;
+        padding:20px;
+    }
+
+    .feature-img{
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .feature-name{
+        font-size: 20px;
+    }
+
+    .more{
+        font-size: 15px;
+    }
+
+    .stats{
+        grid-template-columns: 32% 32% 32%;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .section2{
+        margin:30px 20px;
+    }
+
+    .section2-content2{
+        margin:30px 0px;
+    }
+
+    .count{
+        font-size: 25px;
+    }
+    
+    .stat-name{
+        font-size: 15px;
+    }
+
+    .stat-item{
+        padding:10px;
+    }
+
+    .section3{
+        margin:20px 20px;
+    }
+
+    .section3-header div h1{
+        font-size: 20px;
+    }
+
+    .section3-header{
+        flex-direction: column;
+        margin:20px 0px;
+    }
+
+    .section3-header div p{
+        font-size: 15px;
+    }
+
+    .view-btn{
+        align-self: flex-start;
+        margin: 10px 0px;
+    }
+
+    .view-btn button{
+        padding:10px 30px;
+        font-size: 12px;
+    }
+
+    .projects{
+        grid-template-columns: 98%;
+        grid-template-rows: auto;
+        row-gap: 30px;
+    }
+
+    .project-img{
+        padding:20px;
+    }
+    
+    .project-name{
+        font-size: 20px;
+    }
+
+    .section4{
+        margin:20px 20px;
+    }
+    
+    .section4-content{
+        flex-direction: column;
+        padding:20px;
+    }
+    
+    .section4-content div h1{
+        font-size: 20px;
+    }
+
+    .section4-content div p{
+        font-size: 15px;
+    }
+    
+    .footer{
+        padding: 20px 50px;
+    }
 }
