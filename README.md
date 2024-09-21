@@ -1,4 +1,4 @@
-# FSJS Course | HTML & CSS Project #15
+# HTML & CSS Project #15
 
 Projects Navigator
 | [landing-page-1](https://github.com/sub1120/landing-page-1) | [landing-page-2](https://github.com/sub1120/landing-page-2)  | [landing-page-3](https://github.com/sub1120/landing-page-3) | [landing-page-4](https://github.com/sub1120/landing-page-4)  | [landing-page-5](https://github.com/sub1120/landing-page-5) | [landing-page-6](https://github.com/sub1120/landing-page-6)  | [landing-page-7](https://github.com/sub1120/landing-page-7) | [landing-page-8](https://github.com/sub1120/landing-page-8)  | 
